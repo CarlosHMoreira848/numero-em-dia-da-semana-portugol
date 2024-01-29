@@ -1,12 +1,10 @@
 programa
 {
-	
 	funcao inicio()
 	{
 		inteiro dia = 0
 		escreva("Bem vindo ao programa de tradução de número em dia da semana!... \n Para começar digite um número de 1 até 7 que gostaria de traduzir em dia da semana! \n")
 		leia(dia)
-
 		escolha(dia) {
 			caso 1: 
 			escreva("Você escolheu Domingo!")
